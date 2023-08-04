@@ -120,7 +120,7 @@ export const extraRpcs = {
         tracking: "limited",
         trackingDetails: privacyStatement.ankr,
       },
-       {
+      {
         url: "https://eth.getblock.io/&lt;api_key&gt;/mainnet/",
         tracking: "none",
         trackingDetails: privacyStatement.getblock,
@@ -275,7 +275,7 @@ export const extraRpcs = {
         tracking: "yes",
         trackingDetails: privacyStatement.tenderly,
       },
-       {
+      {
         url: "https://rpc.tenderly.co/fork/c63af728-a183-4cfb-b24e-a92801463484",
         tracking: "yes",
         trackingDetails: privacyStatement.tenderly,
@@ -286,9 +286,9 @@ export const extraRpcs = {
         trackingDetails: privacyStatement.tenderly,
       },
       {
-      	url: "https://api.zan.top/node/v1/eth/mainnet/public",
-      	tracking: "limited",
-      	trackingDetails: privacyStatement.zan,
+        url: "https://api.zan.top/node/v1/eth/mainnet/public",
+        tracking: "limited",
+        trackingDetails: privacyStatement.zan,
       },
     ],
   },
@@ -343,9 +343,9 @@ export const extraRpcs = {
         trackingDetails: privacyStatement.tenderly,
       },
       {
-      	url: "https://api.zan.top/node/v1/polygon/mumbai/public",
-      	tracking: "limited",
-      	trackingDetails: privacyStatement.zan,
+        url: "https://api.zan.top/node/v1/polygon/mumbai/public",
+        tracking: "limited",
+        trackingDetails: privacyStatement.zan,
       },
     ],
   },
@@ -414,11 +414,11 @@ export const extraRpcs = {
         trackingDetails: privacyStatement.tenderly,
       },
       {
-      	url: "https://api.zan.top/node/v1/eth/goerli/public",
-      	tracking: "limited",
-      	trackingDetails: privacyStatement.zan,
+        url: "https://api.zan.top/node/v1/eth/goerli/public",
+        tracking: "limited",
+        trackingDetails: privacyStatement.zan,
       },
-      	"https://rpc.notadegen.com/goerli",
+      "https://rpc.notadegen.com/goerli",
     ],
   },
   //Ropsten testnet deprecated
@@ -578,9 +578,9 @@ export const extraRpcs = {
         trackingDetails: privacyStatement.meowrpc,
       },
       {
-      	url: "https://api.zan.top/node/v1/bsc/mainnet/public",
-      	tracking: "limited",
-      	trackingDetails: privacyStatement.zan,
+        url: "https://api.zan.top/node/v1/bsc/mainnet/public",
+        tracking: "limited",
+        trackingDetails: privacyStatement.zan,
       },
     ],
   },
@@ -603,9 +603,9 @@ export const extraRpcs = {
         trackingDetails: privacyStatement.publicnode,
       },
       {
-      	url: "https://api.zan.top/node/v1/bsc/testnet/public",
-      	tracking: "limited",
-      	trackingDetails: privacyStatement.zan,
+        url: "https://api.zan.top/node/v1/bsc/testnet/public",
+        tracking: "limited",
+        trackingDetails: privacyStatement.zan,
       },
     ],
   },
@@ -793,9 +793,9 @@ export const extraRpcs = {
         trackingDetails: privacyStatement.tenderly,
       },
       {
-      	url: "https://api.zan.top/node/v1/polygon/mainnet/public",
-      	tracking: "limited",
-      	trackingDetails: privacyStatement.zan,
+        url: "https://api.zan.top/node/v1/polygon/mainnet/public",
+        tracking: "limited",
+        trackingDetails: privacyStatement.zan,
       },
       {
         url: "https://polygon.meowrpc.com",
@@ -913,9 +913,9 @@ export const extraRpcs = {
         trackingDetails: privacyStatement.meowrpc,
       },
       {
-      	url: "https://api.zan.top/node/v1/arb/one/public",
-      	tracking: "limited",
-      	trackingDetails: privacyStatement.zan,
+        url: "https://api.zan.top/node/v1/arb/one/public",
+        tracking: "limited",
+        trackingDetails: privacyStatement.zan,
       }
     ],
   },
@@ -952,9 +952,9 @@ export const extraRpcs = {
         trackingDetails: privacyStatement.blockpi,
       },
       {
-      	url: "https://api.zan.top/node/v1/arb/goerli/public",
-      	tracking: "limited",
-      	trackingDetails: privacyStatement.zan,
+        url: "https://api.zan.top/node/v1/arb/goerli/public",
+        tracking: "limited",
+        trackingDetails: privacyStatement.zan,
       }
     ],
   },
@@ -1180,16 +1180,16 @@ export const extraRpcs = {
         trackingDetails: privacyStatement.blockpi,
       },
       {
-      	url: "https://api.zan.top/node/v1/opt/goerli/public",
-      	tracking: "limited",
-      	trackingDetails: privacyStatement.zan,
+        url: "https://api.zan.top/node/v1/opt/goerli/public",
+        tracking: "limited",
+        trackingDetails: privacyStatement.zan,
       }
     ],
   },
   1088: {
     rpcs: [
       "https://andromeda.metis.io/?owner=1088",
-     {
+      {
         url: "https://metis-mainnet.public.blastapi.io",
         tracking: "limited",
         trackingDetails: privacyStatement.blastapi,
@@ -1386,13 +1386,13 @@ export const extraRpcs = {
   66: {
     rpcs: [
       "https://exchainrpc.okex.org",
-     {
+      {
         url: "https://oktc-mainnet.public.blastapi.io",
         tracking: "limited",
         trackingDetails: privacyStatement.blastapi,
       },
     ],
-   
+
   },
   288: {
     rpcs: [
@@ -1824,7 +1824,7 @@ export const extraRpcs = {
     rpcs: ["https://s3.garizon.net/rpc"],
   },
   96: {
-    rpcs: ["https://rpc.bitkubchain.io","wss://wss.bitkubchain.io"],
+    rpcs: ["https://rpc.bitkubchain.io", "wss://wss.bitkubchain.io"],
   },
   99: {
     rpcs: ["https://core.poanetwork.dev"],
@@ -2178,7 +2178,7 @@ export const extraRpcs = {
         url: "https://kava-evm.publicnode.com",
         tracking: "none",
         trackingDetails: privacyStatement.publicnode,
-      }, 
+      },
     ],
   },
   2559: {
@@ -2576,11 +2576,11 @@ export const extraRpcs = {
         trackingDetails: privacyStatement.tenderly,
       },
       {
-      	url: "https://api.zan.top/node/v1/eth/sepolia/public",
-      	tracking: "limited",
-      	trackingDetails: privacyStatement.zan,
+        url: "https://api.zan.top/node/v1/eth/sepolia/public",
+        tracking: "limited",
+        trackingDetails: privacyStatement.zan,
       },
-      	"https://rpc.notadegen.com/sepolia",
+      "https://rpc.notadegen.com/sepolia",
     ]
   },
   7762959: {
@@ -2986,8 +2986,8 @@ export const extraRpcs = {
   570: {
     rpcs: [
       "https://rollux.public-rpc.com",
-      "wss://rpc.rollux.com/wss",			
-      "https://rpc.rollux.com"      
+      "wss://rpc.rollux.com/wss",
+      "https://rpc.rollux.com"
     ],
   },
   5700: {
